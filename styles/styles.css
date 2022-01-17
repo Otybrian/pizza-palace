@@ -1,74 +1,129 @@
 .navbar{
     background-color: rgba(216, 216, 23, 0.425);
-    }
-    .navbar h2 {
-        color: tomato;
-        font-weight: 900;
-    }
-    .navbar ul{
-        display: flex;
-    }
-    .navbar ul li{
-        list-style: none;
-        color: blue;
-        padding: 20px;
-        margin-right: 20px;
-        font-size: 20px;
-    }
-    .section{
-        background-image: url("/images/delivered.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding-left: 30px;
-        color: white;
-        height: 350px;
-        background-position: center;
-        text-align: center;
-        padding-top: 90px;
-    }
-    .section h1{
-       text-align: center;
-    }
-    .section h3{
-        display: none;
-    }
-    .menu h2{
-        text-align: center;
-    }
-    #our-menu{
-        padding-top: 40px;
-    }
-    #pizza{
-        border: solid white;
-        box-shadow: 0px 5px 5px 5px;
-        height: 300px;
-        width: fit-content;
-        margin-top: 50px;
-        border-radius: 10px;
-        margin-left: 90px;
-        align-items: center;
-    }
-    .column-one{
-        display: flex;
-    }
-    .column-two{
-        display: flex;
-    }
-    .order {
-        padding: 20px;
-        background-color: rgba(216, 216, 23, 0.425);
-        }
-        #price{
-            text-align: center;
-            padding-top: 30px;
-            border: solid white;
-            box-shadow: 0px 5px 5px 5px;
-            border-radius: 10px;
-            margin-top: 30px;
-            color: blue;
-        }
-        .price-section{
-            display: flex;
-            background-color: rgba(216, 216, 23, 0.425);
+ }
+ .navbar h2 {
+    color: tomato;
+    font-weight: 900;
+}
+.navbar ul{
+    display: flex;
+}
+ .navbar ul li{
+    list-style: none;
+    color: blue;
+    padding: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+ }
+.section{
+    background-image: url("/images/delivered.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    color: white;
+    height: 350px;
+    background-position: center;
+    text-align: center;
+    padding-top: 90px;
+}
+.section h1{
+    text-align: center;
+}
+.section h3{
+    display: none;
+ }
+.menu h2{
+    text-align: center;
+}
+#our-menu{
+    padding-top: 40px;
+}
+#pizza{
+    border: solid white;
+    box-shadow: 0px 5px 5px 5px;
+    height: 300px;
+    width: fit-content;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 90px;
+    align-items: center;
+ }
+.column-one{
+    display: flex;
+ }
+.column-two{
+    display: flex;
+ }
+.order {
+    padding: 20px;
+    background-color: rgba(216, 216, 23, 0.425);
+}
+#price{
+    text-align: center;
+    padding-top: 30px;
+    border: solid white;
+    box-shadow: 0px 5px 5px 5px;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: blue;
+}
+.price-section{
+    display: flex;
+    background-color: rgba(216, 216, 23, 0.425);
            
-        }
+ }
+ .top{
+    text-align: center;
+    padding-left: 50px;
+    color: tomato;
+    font-size: 25px;
+    padding-top: 40px;
+}
+.top span{
+    color: blue;
+    font-weight: 900;
+}
+.sizes{
+    text-align: center;
+    padding-left: 80px;
+    color: tomato;
+    font-size: 25px;
+    padding-top: 40px;
+}
+.sizes span{
+    color: blue;
+    font-weight: 900;
+}
+.crusting{
+    text-align: center;
+    padding-left: 80px;
+    color: tomato;
+    font-size: 25px;
+    padding-top: 40px;
+}
+.crusting span{
+    color: blue;
+    font-weight: 900;
+}
+.top ul li{
+    list-style: none;
+}
+.sizes ul li{
+    list-style: none;
+}
+.crusting ul li{
+    list-style: none;
+}
+.footer{
+    text-align: center;
+    padding-top: 20px;
+}
+.copyright{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+.section-last{
+    background-color: blue;
+    padding-bottom: 10px;
+}
