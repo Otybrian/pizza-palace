@@ -36,4 +36,12 @@ function makeOrder() {
             return false;
         }
     }
+    function chooseQuantity() {
+        if (quantity <= 0) {
+            alert("kindly select the quantity of pizza you want!");
+            document.getElementById("quantity").focus();
+            return false;
+        }
+    }
+    alert("Your order will cost you " + totalCost + " . Thank you for buying from us!")
 };
