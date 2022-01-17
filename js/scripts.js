@@ -87,6 +87,7 @@ function makeOrder() {
     var toppings = document.getElementById("toppings").value;
     var quantity = document.getElementById("quantity").value;
     var delivery = document.getElementById("delivery").value;
+    var topOne = document.getElementById("toppings").entered;
     var totalCost = (parseInt(toppings) + parseInt(crust) + parseInt(size)) * quantity;
     var whatIWant = selectPizza(); chosenSize(); selectedCrust(); selectedTopping(); chooseQuantity(); needDelivery();
 
@@ -125,7 +126,7 @@ function makeOrder() {
             return false;
         }
     }
-    alert("Your order will cost you " + totalCost + " . Thank you for buying from us!")
+    alert("Your order of " + quantity + " " + " "+ document.getElementById("select").value  + " @ " + document.getElementById("size").value + " each with the selected toppings and crusts" + " will cost you " + totalCost + " . Thank you for buying from us!")
 
     function needDelivery() {
         if (delivery == "") {
