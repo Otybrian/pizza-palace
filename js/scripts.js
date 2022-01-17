@@ -7,3 +7,12 @@ function makeOrder() {
     var delivery = document.getElementById("delivery").value;
     var totalCost = (parseInt(toppings) + parseInt(crust) + parseInt(size)) * quantity;
     var whatIWant = selectPizza(); chosenSize(); selectedCrust(); selectedTopping(); chooseQuantity(); needDelivery();
+
+    function selectPizza() {
+        if (pizza == "") {
+            alert("please select the type of pizza you want!");
+            document.getElementById("select").focus();
+            return false;
+        }
+    }
+};
