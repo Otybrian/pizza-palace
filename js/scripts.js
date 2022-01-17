@@ -44,4 +44,12 @@ function makeOrder() {
         }
     }
     alert("Your order will cost you " + totalCost + " . Thank you for buying from us!")
+
+    function needDelivery() {
+        if (delivery == "") {
+            return false
+        }
+        alert("Your order will be delivered to you at " + delivery + " . You will have to pay an  extra ksh 120 delivery fee")
+
+    }
 };
