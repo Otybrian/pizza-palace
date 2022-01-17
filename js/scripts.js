@@ -1,3 +1,27 @@
+$(document).ready(function () {
+    $("#price").click(function () {
+        $(".price-section").show();
+        $("#price").hide();
+    });
+    $(".price-section").click(function () {
+        $("#price").show();
+        $(".price-section").hide();
+    });
+    $(".section h1").mouseover(function () {
+        $(".section h3").show();
+    });
+    $(".section h1").mouseout(function () {
+        $(".section h3").hide();
+    });
+    $(".pizza").mouseover(function () {
+        $(".pizza,ul,li").toggle();
+    });
+    $(".pizza").mouseout(function () {
+        $(".pizza,ul,li").hide();
+    });
+});
+
+
 function makeOrder() {
     var pizza = document.getElementById("select").value;
     var size = document.getElementById("size").value;
