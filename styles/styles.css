@@ -1,0 +1,17 @@
+.navbar{
+    background-color: rgba(216, 216, 23, 0.425);
+    }
+    .navbar h2 {
+        color: tomato;
+        font-weight: 900;
+    }
+    .navbar ul{
+        display: flex;
+    }
+    .navbar ul li{
+        list-style: none;
+        color: blue;
+        padding: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+    }
