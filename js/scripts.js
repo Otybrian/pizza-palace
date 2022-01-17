@@ -15,4 +15,11 @@ function makeOrder() {
             return false;
         }
     }
+    function chosenSize() {
+        if (size == "") {
+            alert("what size do you want?");
+            document.getElementById("size").focus();
+            return false;
+        }
+    }
 };
