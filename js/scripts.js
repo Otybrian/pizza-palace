@@ -13,11 +13,69 @@ $(document).ready(function () {
     $(".section h1").mouseout(function () {
         $(".section h3").hide();
     });
-    $(".pizza").mouseover(function () {
-        $(".pizza,ul,li").toggle();
+    $("#pizza").mouseover(function () {
+        $("#pizza-paragraph").show();
+        $("#pizza-name").hide();
     });
-    $(".pizza").mouseout(function () {
-        $(".pizza,ul,li").hide();
+    $("#pizza").mouseout(function () {
+        $("#pizza-paragraph").hide();
+        $("#pizza-name").show();
+    });
+    $("#pizza-one").mouseover(function () {
+        $("#pizza-paragraph-one").show();
+        $("#pizza-name-one").hide();
+    });
+    $("#pizza-one").mouseout(function () {
+        $("#pizza-paragraph-one").hide();
+        $("#pizza-name-one").show();
+    });
+    $("#pizza-two").mouseover(function () {
+        $("#pizza-paragraph-two").show();
+        $("#pizza-name-two").hide();
+    });
+    $("#pizza-two").mouseout(function () {
+        $("#pizza-paragraph-two").hide();
+        $("#pizza-name-two").show();
+    });
+    $("#pizza-three").mouseover(function () {
+        $("#pizza-paragraph-three").show();
+        $("#pizza-name-three").hide();
+    });
+    $("#pizza-three").mouseout(function () {
+        $("#pizza-paragraph-three").hide();
+        $("#pizza-name-three").show();
+    });
+    $("#pizza-four").mouseover(function () {
+        $("#pizza-paragraph-four").show();
+        $("#pizza-name-four").hide();
+    });
+    $("#pizza-four").mouseout(function () {
+        $("#pizza-paragraph-four").hide();
+        $("#pizza-name-four").show();
+    });
+    $("#pizza-five").mouseover(function () {
+        $("#pizza-paragraph-five").show();
+        $("#pizza-name-five").hide();
+    });
+    $("#pizza-five").mouseout(function () {
+        $("#pizza-paragraph-five").hide();
+        $("#pizza-name-five").show();
+    });
+    $("#pizza-six").mouseover(function () {
+        $("#pizza-paragraph-six").show();
+        $("#pizza-name-six").hide();
+    });
+    $("#pizza-six").mouseout(function () {
+        $("#pizza-paragraph-six").hide();
+        $("#pizza-name-six").show();
+    });
+    $("#pizza-seven").mouseover(function () {
+        $("#pizza-paragraph-seven").show();
+        $("#pizza-name-seven").hide();
+    });
+    $("#pizza-seven").mouseout(function () {
+        $("#pizza-paragraph-seven").hide();
+        $("#pizza-name-seven").show();
     });
 });
 

@@ -41,13 +41,123 @@
 #pizza{
     border: solid white;
     box-shadow: 0px 5px 5px 5px;
-    height: 300px;
-    width: fit-content;
+    height: 330px;
+    width: 250px;
     margin-top: 50px;
     border-radius: 10px;
-    margin-left: 90px;
+    margin-left: 40px;
     align-items: center;
  }
+ #pizza-one{
+    border: solid white;
+    box-shadow: 0px 5px 5px 5px;
+    height: 330px;
+    width: 250px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 40px;
+    align-items: center;
+ }
+ #pizza-two{
+    border: solid white;
+    box-shadow: 0px 5px 5px 5px;
+    height: 330px;
+    width: 250px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 40px;
+    align-items: center;
+ }
+ #pizza-three{
+    border: solid white;
+    box-shadow: 0px 5px 5px 5px;
+    height: 330px;
+    width: 250px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 40px;
+    align-items: center;
+ }
+ #pizza-four{
+    border: solid white;
+    box-shadow: 0px 5px 5px 5px;
+    height: 330px;
+    width: 250px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 40px;
+    align-items: center;
+ }
+ #pizza-five{
+    border: solid white;
+    box-shadow: 0px 5px 5px 5px;
+    height: 330px;
+    width: 250px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 40px;
+    align-items: center;
+ }
+ #pizza-six{
+    border: solid white;
+    box-shadow: 0px 5px 5px 5px;
+    height: 330px;
+    width: 250px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 40px;
+    align-items: center;
+ }
+ #pizza-seven{
+    border: solid white;
+    box-shadow: 0px 5px 5px 5px;
+    height: 330px;
+    width: 250px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 40px;
+    align-items: center;
+ }
+ #pizza-paragraph{
+     display: none;
+     font-size: 20px;
+     color: tomato;
+ }
+ #pizza-paragraph-one{
+    display: none;
+    font-size: 20px;
+    color: tomato;
+}
+#pizza-paragraph-two{
+    display: none;
+    font-size: 20px;
+    color: tomato;
+}
+#pizza-paragraph-three{
+    display: none;
+    font-size: 20px;
+    color: tomato;
+}
+#pizza-paragraph-four{
+    display: none;
+    font-size: 20px;
+    color: tomato;
+}
+#pizza-paragraph-five{
+    display: none;
+    font-size: 20px;
+    color: tomato;
+}
+#pizza-paragraph-six{
+    display: none;
+    font-size: 20px;
+    color: tomato;
+}
+#pizza-paragraph-seven{
+    display: none;
+    font-size: 20px;
+    color: tomato;
+}
 .column-one{
     display: flex;
  }
@@ -70,6 +180,7 @@
 .price-section{
     display: flex;
     background-color: rgba(216, 216, 23, 0.425);
+    
            
  }
  .top{
