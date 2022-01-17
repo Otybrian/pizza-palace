@@ -22,4 +22,11 @@ function makeOrder() {
             return false;
         }
     }
+    function selectedCrust() {
+        if (crust == "") {
+            alert("ooops! you forgot to select the crust you want!");
+            document.getElementById("crust").focus();
+            return false;
+        }
+    }
 };
