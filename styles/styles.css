@@ -54,3 +54,21 @@
     .column-two{
         display: flex;
     }
+    .order {
+        padding: 20px;
+        background-color: rgba(216, 216, 23, 0.425);
+        }
+        #price{
+            text-align: center;
+            padding-top: 30px;
+            border: solid white;
+            box-shadow: 0px 5px 5px 5px;
+            border-radius: 10px;
+            margin-top: 30px;
+            color: blue;
+        }
+        .price-section{
+            display: flex;
+            background-color: rgba(216, 216, 23, 0.425);
+           
+        }
