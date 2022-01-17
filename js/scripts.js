@@ -87,7 +87,6 @@ function makeOrder() {
     var toppings = document.getElementById("toppings").value;
     var quantity = document.getElementById("quantity").value;
     var delivery = document.getElementById("delivery").value;
-    var topOne = document.getElementById("toppings").entered;
     var totalCost = (parseInt(toppings) + parseInt(crust) + parseInt(size)) * quantity;
     var whatIWant = selectPizza(); chosenSize(); selectedCrust(); selectedTopping(); chooseQuantity(); needDelivery();
 
