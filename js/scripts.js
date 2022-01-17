@@ -29,4 +29,11 @@ function makeOrder() {
             return false;
         }
     }
+    function selectedTopping() {
+        if (toppings == "") {
+            alert("what topping would you like?");
+            document.getElementById("toppings").focus();
+            return false;
+        }
+    }
 };
