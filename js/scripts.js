@@ -125,7 +125,7 @@ function makeOrder() {
             return false;
         }
     }
-    alert("Your order of " + quantity + " " + " "+ document.getElementById("select").value  + " @ " + document.getElementById("size").value + " each with the selected toppings and crusts" + " will cost you " + totalCost + " . Thank you for buying from us!")
+    alert("Your order of " + quantity + " " + " "+ document.getElementById("select").value + "s" + " @ " + document.getElementById("size").value + " each with the selected toppings and crusts" + " will cost you " + totalCost + " . Thank you for buying from us!")
 
     function needDelivery() {
         if (delivery == "") {
